@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "SlimamifMedium"; /* Гарнитура шрифта */
+    src: url(/css/font_slimamif.ttf);
+}
+
+/*Убираем отступы Google*/
+body {
+    margin: 0;
+}
+
+ /* Цвет текста в теле и в ссылках*/
+body, a {
+    color: aliceblue;
+}
+
+
+/*Квадратик возле логотипа*/
+#logo {
+    border: 2px solid #7ec3b0;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #7ec3b0;
+    margin-top: 0;
+
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+/*Квадратик возле списка разделов*/
+
+#pages {
+    border: 3px solid aliceblue;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #e27d60;
+    opacity: 0.8;
+
+    margin-top: 2px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/*Квадратик возле разделов*/
+.page {
+
+    border: 2px solid aliceblue;
+    border-radius: 30px;
+    background-color: #e27d60;
+    opacity: 0.8;
+
+    font-size: xx-large;
+    font-weight: bold;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 11px;
+    padding-right: 11px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#main_body {
+
+}
+
+.pages_info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#head1 {
+
+    font-size: 4em;
+    font-style: italic;
+    font-weight: bold;
+
+    line-height: 20px;
+}
+
+#head2 {
+
+
+    font-style: italic;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+
+#pages a {
+    margin-left: 5.5px;
+    margin-right: 5.5px;
+}
+
+#pages {
+
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+fieldset {
+    border: 2px solid aliceblue;
+    margin: 5px 480px 5px 480px;
+    border-radius: 11px;
+    background-color: #e27d60;
+    opacity: 0.8;
+}
+
+br {
+    color: aliceblue;
+}
+
+table {
+
+    text-align: center;
+    border: 3px solid aliceblue;
+}
+
+body {
+    background-color: #7ec3b0;
+
+
+    font-family: "SlimamifMedium";
+    font-size: 1.2em;
+
+    text-align: center;
+}
